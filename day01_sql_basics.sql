@@ -32,17 +32,22 @@ from employees
 group by city
 order by avg_salary;
 
+-- Average salary per city, only cities above 55000.
 select city, ROUND(AVG(salary), 0) AS avg_salary
 from employees
 group by city
 having AVG(salary) > 55000;
 
+-- lowest paid employee
 SELECT name, salary
 FROM employees
 ORDER BY salary ASC
 LIMIT 2;
 
 
-
-
 select max(salary) from employees;
+
+
+
+
+
