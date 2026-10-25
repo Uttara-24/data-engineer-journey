@@ -51,5 +51,12 @@ This explains why:
 - `day01_sql_basics.sql`: all queries from today
 
 ---
+GIT PUSH 
+git init
+git add .
+git commit -m "Day 1: SQL basics"
+git branch -M main
+git remote add origin PASTE_YOUR_URL_HERE
+git push -u origin main
 
 *Next: Day 2, Joins (INNER, LEFT, RIGHT)*
